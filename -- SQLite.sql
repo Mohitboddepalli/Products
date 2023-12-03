@@ -1,0 +1,2 @@
+-- SQLite
+set * update product
