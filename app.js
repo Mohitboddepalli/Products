@@ -13,11 +13,6 @@ const db =new sqlite3.Database("./product_transaction.db",sqlite3.open_READWRITE
 })
 
 
-
-
-
-
-
 const doNetworkCall = async () => {
   
 const url ="https://s3.amazonaws.com/roxiler.com/product_transaction.json"
@@ -46,19 +41,11 @@ const url ="https://s3.amazonaws.com/roxiler.com/product_transaction.json"
       
    })
 
-
-
-
-
-  })}
+ })}
   catch(err){
     console.log(err.message)
   }
-  
-
-
-  
-  }
+   }
  
   doNetworkCall();
 
